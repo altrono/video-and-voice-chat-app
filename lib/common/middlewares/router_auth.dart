@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:chatty/common/routes/routes.dart';
-import 'package:chatty/common/store/store.dart';
+import 'package:video_call_chat_app/common/routes/routes.dart';
+import 'package:video_call_chat_app/common/store/store.dart';
 
 import 'package:get/get.dart';
 

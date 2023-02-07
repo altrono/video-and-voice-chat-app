@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:chatty/common/middlewares/middlewares.dart';
+import 'package:video_call_chat_app/common/middlewares/middlewares.dart';
 
 import 'package:get/get.dart';
 

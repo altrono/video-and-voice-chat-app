@@ -1,4 +1,4 @@
-import 'package:chatty/common/entities/entities.dart';
+import 'package:video_call_chat_app/common/entities/entities.dart';
 //https://github.com/HeySreelal/countrycodes
 class Countries {
   static List<Country> get list => _list;

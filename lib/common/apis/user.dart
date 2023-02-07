@@ -1,6 +1,6 @@
-import 'package:chatty/common/entities/entities.dart';
-import 'package:chatty/common/utils/utils.dart';
-import 'package:chatty/common/values/values.dart';
+import 'package:video_call_chat_app/common/entities/entities.dart';
+import 'package:video_call_chat_app/common/utils/utils.dart';
+import 'package:video_call_chat_app/common/values/values.dart';
 
 class UserAPI {
   static Future<UserLoginResponseEntity> Login({

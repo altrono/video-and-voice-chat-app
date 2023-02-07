@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:ui';
-import 'package:chatty/common/apis/apis.dart';
-import 'package:chatty/common/entities/entities.dart';
-import 'package:chatty/common/routes/names.dart';
-import 'package:chatty/common/store/store.dart';
-import 'package:chatty/common/values/values.dart';
+import 'package:video_call_chat_app/common/apis/apis.dart';
+import 'package:video_call_chat_app/common/entities/entities.dart';
+import 'package:video_call_chat_app/common/routes/names.dart';
+import 'package:video_call_chat_app/common/store/store.dart';
+import 'package:video_call_chat_app/common/values/values.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
