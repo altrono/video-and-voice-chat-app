@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         designSize: const Size(360, 780),
         builder: (context, child) => GetMaterialApp(
               debugShowCheckedModeBanner: false,
-              title: 'Flutter Demo',
+              title: 'Let\'s Chat',
               theme: ThemeData(
                 primarySwatch: Colors.blue,
               ),

@@ -6,6 +6,8 @@ import 'package:get/get.dart';
 
 import '../../pages/frame/welcome/index.dart';
 
+import '../../pages/message/bindings.dart';
+import '../../pages/message/view.dart';
 import 'routes.dart';
 
 
@@ -46,10 +48,17 @@ class AppPages {
     GetPage(name: AppRoutes.SendCode, page: () => SendCodePage(), binding: SendCodeBinding()),
     // 首页
     GetPage(name: AppRoutes.Contact, page: () => ContactPage(), binding: ContactBinding()),
-    //消息
-    GetPage(name: AppRoutes.Message, page: () => MessagePage(), binding: MessageBinding(),middlewares: [
+    */
+    // Message page
+    GetPage(
+      name: AppRoutes.Message,
+      page: () => MessagePage(),
+      binding: MessageBinding(),
+      middlewares: [
        RouteAuthMiddleware(priority: 1),
-     ],),
+     ],
+    ),
+    /*
     //我的
     GetPage(name: AppRoutes.Profile, page: () => ProfilePage(), binding: ProfileBinding()),
     //聊天详情
