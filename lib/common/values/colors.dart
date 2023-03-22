@@ -58,6 +58,5 @@ class AppColors {
 
   static const Color morenbg = Color.fromARGB(255, 250, 250, 250);
 
-  //背景颜色
 
 }
