@@ -5,9 +5,9 @@ class AppColors {
   static const Color primaryBackground = Color.fromARGB(255, 255, 255, 255);
   /// background grey color
   static const Color primarySecondaryBackground = Color.fromARGB(255, 247, 247, 249);
-  /// 主控件-背景
+  /// primary color
   static const Color primaryElement = Color.fromARGB(255, 74, 123, 246);
-  /// 主文本 黑
+  /// primary text color
   static const Color primaryText = Color.fromARGB(255, 32, 47, 62);
   static const Color primary_bg = Color.fromARGB(210, 32, 47, 62);
   /// 主控件-文本 白色
