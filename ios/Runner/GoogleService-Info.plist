@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>153285742981-e9c8s4ra4eorub45sid1242uartfhki5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.153285742981-e9c8s4ra4eorub45sid1242uartfhki5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAm_Rpc4Yl7GK4ipTTPMTuDOaLoq1ObAqU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>153285742981</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.videoCallChatApp</string>
+	<key>PROJECT_ID</key>
+	<string>video-call-app-b8211</string>
+	<key>STORAGE_BUCKET</key>
+	<string>video-call-app-b8211.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:153285742981:ios:648c38eddf2e1c874134ec</string>
+</dict>
+</plist>

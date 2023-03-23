@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "153285742981",
+    "project_id": "video-call-app-b8211",
+    "storage_bucket": "video-call-app-b8211.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153285742981:android:8ec6d035bf76cf574134ec",
+        "android_client_info": {
+          "package_name": "com.example.video_call_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153285742981-buujmh2umusfpsjpu09it2spl8vrb3e3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTm9Dhd6JqBA8wkoalz621aXdx6JzRnxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153285742981-buujmh2umusfpsjpu09it2spl8vrb3e3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
