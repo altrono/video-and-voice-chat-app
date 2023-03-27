@@ -26,7 +26,6 @@ class SignInPage extends GetView<SignInController> {
 
   Widget _buildThirdPartyLogin(String loginInType, String logo) {
     return GestureDetector(
-      onTap: (){},
       child: Container(
           width: 295.w,
           height: 44.h,
@@ -65,6 +64,9 @@ class SignInPage extends GetView<SignInController> {
             ],
           ),
       ),
+      onTap: (){
+        controller.handleSignIn('google');
+      },
     );
   }
 

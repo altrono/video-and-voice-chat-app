@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:video_call_chat_app/common/entities/entities.dart';
+import 'package:video_call_chat_app/common/routes/names.dart';
 import 'package:video_call_chat_app/pages/frame/sign_in/state.dart';
 
 
@@ -34,6 +35,8 @@ class SignInController extends GetxController {
           loginPanelListRequestEntity.open_id = id;
           loginPanelListRequestEntity.type = 2;
 
+          asyncPostAllData();
+
         }
       }
     } catch(e) {
@@ -42,6 +45,10 @@ class SignInController extends GetxController {
       }
 
     }
+  }
+
+  asyncPostAllData() {
+    Get.offAllNamed(AppRoutes.Message);
   }
 
 }
