@@ -48,6 +48,7 @@ class SignInController extends GetxController {
   }
 
   asyncPostAllData() {
+    print('libolo muenene mayi mayi kota');
     Get.offAllNamed(AppRoutes.Message);
   }
 

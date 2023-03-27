@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:video_call_chat_app/common/routes/pages.dart';
+import 'package:video_call_chat_app/common/style/style.dart';
 import 'package:video_call_chat_app/glabal.dart';
 
 Future<void> main() async {
@@ -20,9 +21,7 @@ class MyApp extends StatelessWidget {
         builder: (context, child) => GetMaterialApp(
               debugShowCheckedModeBanner: false,
               title: 'Let\'s Chat',
-              theme: ThemeData(
-                primarySwatch: Colors.blue,
-              ),
+              theme: AppTheme.light,
               initialRoute: AppPages.INITIAL,
               getPages: AppPages.routes,
           ),

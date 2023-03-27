@@ -9,6 +9,8 @@ import '../../pages/frame/sign_in/index.dart';
 
 import '../../pages/message/bindings.dart';
 import '../../pages/message/view.dart';
+import '../../pages/profile/bindings.dart';
+import '../../pages/profile/view.dart';
 import 'routes.dart';
 
 
@@ -59,9 +61,13 @@ class AppPages {
        RouteAuthMiddleware(priority: 1),
      ],
     ),
+
+    // Profile section
+    GetPage(
+        name: AppRoutes.Profile,
+        page: () => ProfilePage(),
+        binding: ProfileBinding()),
     /*
-    //我的
-    GetPage(name: AppRoutes.Profile, page: () => ProfilePage(), binding: ProfileBinding()),
     //聊天详情
     GetPage(name: AppRoutes.Chat, page: () => ChatPage(), binding: ChatBinding()),
 
